@@ -20,13 +20,13 @@ contract ProofOfExistence3 {
   }
 
   // helper function to get a document's sha256
-  function proofFor(string memory document)
-    public
-    pure
-    returns (bytes32)
-  {
-    return keccak256(bytes(document));
-  }
+  // function proofFor(string memory document)
+  //   public
+  //   pure
+  //   returns (bytes32)
+  // {
+  //   return keccak256(bytes(document));
+  // }
 
   // check if a document has been notarized
   function checkDocument(string memory document)
